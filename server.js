@@ -6,6 +6,7 @@
 'use strict';
 
 var fs = require('fs');
+const path = require('path');
 var express = require('express');
 var app = express();
 
@@ -35,7 +36,8 @@ app.route('/_api/package.json')
   
 app.route('/')
     .get(function(req, res) {
-		  res.sendFile(process.cwd() + '/views/index.html');
+		  // res.sendFile(process.cwd() + '/views/index.html');
+      res.sendFile(path.join(__dirname, './views/index.html'));
     })
 
 // Respond not found to all the wrong routes
