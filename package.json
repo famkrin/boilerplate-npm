@@ -5,9 +5,9 @@
 		"url": "https://github.com/famkrin/boilerplate-npm"
 	},
 	"author": "Jeff Dunn",
-	"main": "server.js",
+	"main": "api/index.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node api/index.js"
 	},
 	"dependencies": {
 		"express": "^4.14.0"
