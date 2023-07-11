@@ -5,7 +5,8 @@
 		"url": "https://github.com/famkrin/boilerplate-npm"
 	},
 	"author": "Jeff Dunn",
-	"description": "Tutorial for managing packages with npm",
+	"description": "freecodecamp tutorial for managing packages with npm",
+	"keywords": ["freecodecamp", "learn", "npm", "packages"],
 	"main": "api/index.js",
 	"scripts": {
 		"start": "node api/index.js"
