@@ -5,6 +5,7 @@
 		"url": "https://github.com/famkrin/boilerplate-npm"
 	},
 	"author": "Jeff Dunn",
+	"description": "Tutorial for managing packages with npm",
 	"main": "api/index.js",
 	"scripts": {
 		"start": "node api/index.js"
